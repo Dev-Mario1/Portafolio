@@ -1,0 +1,157 @@
+
+.caja-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+button{
+ background-color: #ad0ad5;
+ border-radius: 20%;
+ color: rgb(10, 184, 232);
+ padding: 8px;
+ text-align: center;
+ align-self: auto;
+ font-weight: bold;
+}
+
+h1{
+color: rgb(9, 52, 243);
+background-color: aqua;
+text-align: center;
+}
+
+h2{
+    color: tomato;
+    background-color: purple;
+    size: 100px;
+    text-align: center;
+}
+
+#titulo{
+    text-align: center;
+    text-size-adjust: 100;
+}
+
+/*Configuracion de tarjeta*/
+.tarjeta{
+    width: 200px;
+    background-color: #17e2e2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ad0ad5;
+    
+    margin: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    color: antiquewhite;
+    background-color: #ad0ad5;
+}
+
+#Ghost img{
+    background-color: white;
+}
+
+#Hornet img{
+    background-color: white;
+}
+
+#PureVanilla img{
+    background-color: goldenrod;
+}
+
+#Rimuru img{
+    background-color: whitesmoke;
+}
+
+#Custard img{
+    background-color: goldenrod;
+}
+
+#Koro-sensei img{
+    background-color: wheat;
+}
+
+#WindArcher img{
+    background-color: green;
+}
+
+#MasterChief img{
+    background-color: greenyellow;
+}
+
+#CrèmeBrûlée img{
+    background-color: goldenrod;
+}
+
+#Centella img{
+    background-color: aliceblue;
+}
+
+#LanzadoraOscura img{
+    background-color: #ad0ad5;
+}
+
+#WhiteLily img{
+    background-color: #00A693;
+}
+
+.boton{
+    text-decoration: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    color: #17e2e2;
+    background-color: #ad0ad5;
+    padding: 5px;
+}
+
+/*Configuracion de tamaño*/
+.tarjeta img{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.tarjeta, .tarjeta p{
+    margin: 10px 0;
+}
+
+body{
+    background-image: url("Fondo.avif");
+}
+
+.tarjeta img{
+    height: 130px;
+    width: 130px;
+}
+
+#Girasol img{
+    height: 150px;
+}
+
+/*Todos los hover*/
+.caja-tarjetas:hover > * {
+    opacity: 0.5;
+}
+  
+.caja-tarjetas:hover > *:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.caja-tarjetas {
+    pointer-events: none;
+}
+  
+.caja-tarjetas > * {
+    pointer-events: auto;
+}
